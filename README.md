@@ -1,4 +1,4 @@
-# 📡 Frequency‑Domain Sensing — DFT Exploration & FMCW Radar FFT on TI TMS320 (Project Showcase)
+# 📡 Frequency‑Domain Sensing — DFT Exploration & FMCW Radar FFT on TI TMS320
 
 > A compact project that demonstrates **how the Discrete Fourier Transform (DFT) reveals frequency content** in time‑signals and how an **FFT on a TI TMS320‑class DSP** extracts target **range** from an FMCW radar’s **dechirped** signal.
 

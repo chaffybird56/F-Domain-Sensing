@@ -9,7 +9,7 @@
 #include "math.h"
 
 #include "with_barrier/data_trans.h"
-//#include "data_rec.h"
+#include "data_rec.h"
 #include "with_barrier/data_dechirp.h"
 
 #include "FFT_helper.h"
@@ -210,4 +210,5 @@ void initialize()
 	IRQ_enable(CODECEventId);	// enable CODEC eventXmit INT11
 	MCBSP_write(DSK6713_AIC23_DATAHANDLE,0);// start interrupt by outputting a sample
 }
+
 

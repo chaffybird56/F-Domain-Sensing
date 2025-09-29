@@ -9,9 +9,9 @@
 % (d) Shows that firls() produces identical impulse responses to the truncation method.
 % (e) Creates a white Gaussian noise signal, filters it using conv() and filter(), and compares the outputs.
 
-% -----------------------------------------
+% ----------------------------------------
 % Part (a): Design Linear-Phase Lowpass Filters Using the Truncation Method
-% -----------------------------------------
+% ----------------------------------------
 
 % Define filter orders and corresponding lengths
 M_values = [20, 50, 150];  % Filter orders
@@ -169,3 +169,4 @@ end
 % =========================================
 % End of MATLAB Code
 % =========================================
+

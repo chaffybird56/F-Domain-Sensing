@@ -2,7 +2,6 @@
 
 Every sensor reading is really a signal changing over time. The **Fourier transform** answers a simple question — *what frequencies are inside this signal?* — and that answer is how radars figure out **how far away** something is. This repo walks that idea in two steps: first in MATLAB (build intuition for DFT bins, resolution, and zero‑padding), then on a **TI DSP board** where an FFT turns a dechirped FMCW radar echo into a **range peak**.
 
-> This is a **DSP + radar fundamentals** project, not a plug‑and‑play demo. You will see complex exponentials, chirp de‑ramping, fixed‑point‑adjacent C on a C6713, and the gap between a textbook FFT and a vendor‑optimized kernel.
 
 <p align="center">
   <img width="563" height="232" alt="Transmit vs delayed receive chirps" src="https://github.com/user-attachments/assets/48f41f44-0720-4f33-8844-3846e5216daa" />
